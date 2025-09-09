@@ -1,14 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Privacy Policy - InternalSandbox</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Frozzo Dev – Official Site</title>
+  <meta name="description" content="Official website for the Frozzo Dev application and services." />
+  <style>
+    body {font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin:0; color:#111; background:#fafafa;}
+    header {padding:48px 20px; text-align:center; background:#111; color:#fff;}
+    main {max-width:900px; margin:32px auto; padding:0 20px;}
+    h1 {margin:0 0 8px;}
+    a.button {display:inline-block; padding:12px 18px; border-radius:10px; background:#111; color:#fff; text-decoration:none; margin-top:10px}
+    footer {text-align:center; padding:40px 20px; color:#666;}
+    nav a {margin-right:14px; color:#06c; text-decoration:none}
+    nav {margin-top:10px}
+  </style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p>This is the privacy policy for Internal Sandbox.</p>
-  <p>We do not collect, store, or share any personal information directly. 
-  Authentication and account services are handled by Epic Games and Steam securely.</p>
-  <p>If you have questions, please contact us at: support@frozzo.dev</p>
+  <header>
+    <h1>Frozzo Dev</h1>
+    <p>Official site for the InternalSandbox / Alternates application.</p>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/privacy.html">Privacy Policy</a>
+      <!-- Optional later: <a href="/tos.html">Terms</a> -->
+    </nav>
+  </header>
+
+  <main>
+    <h2>About</h2>
+    <p>
+      This site provides basic information and legal pages for our application.
+      Authentication and account services are handled by Epic Online Services and/or Steam.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      For support or questions, email:
+      <a href="mailto:support@frozzo.dev">support@frozzo.dev</a>
+    </p>
+
+    <h2>Links</h2>
+    <ul>
+      <li><a href="/privacy.html">Privacy Policy</a></li>
+      <!-- <li><a href="/tos.html">Terms of Service</a></li> -->
+    </ul>
+  </main>
+
+  <footer>
+    © <span id="y"></span> Frozzo Dev. All rights reserved.
+  </footer>
+
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
 </body>
 </html>
